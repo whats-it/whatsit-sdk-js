@@ -1,6 +1,6 @@
 {
   "name": "whatsit-sdk-js",
-  "version": "0.0.9",
+  "version": "0.0.14",
   "license": "MIT",
   "description": "WhatsIt API.",
   "main": "dist/components/WhatsIt.js",
@@ -14,7 +14,7 @@
     "test-verbose": "DEBUG=whatsit* npm test",
     "lint": "gulp lint",
     "make-docs": "node_modules/.bin/jsdoc -c .jsdoc.json --verbose",
-    "release": "./release.sh 0.0.9",
+    "release": "./release.sh 0.0.14",
     "codecov": "nyc report --reportertext-lcov > coverage.lcov && codecov"
   },
   "babel": {
